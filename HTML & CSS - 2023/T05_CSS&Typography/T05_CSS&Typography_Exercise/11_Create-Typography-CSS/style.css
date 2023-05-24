@@ -1,0 +1,41 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+table{
+    border: 1px solid rgb(221,221,221);
+    width:100%;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    padding-left: 8px;
+    background-color: rgb(221,221,221);
+}
+
+td{
+    padding-left: 8px;
+    border-right: 1px solid rgb(221,221,221);
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+blockquote {
+    border-left: solid 2px rgb(221,221,221);
+    font-style: italic;
+    padding: 30px;
+
+}
+
+blockquote p.author{
+    text-align: right;
+}
+
