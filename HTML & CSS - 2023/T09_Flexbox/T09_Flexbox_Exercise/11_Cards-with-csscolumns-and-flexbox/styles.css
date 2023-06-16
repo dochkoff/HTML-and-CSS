@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 3em 10em;
+}
+
+.cards-layout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:1em;
+    height: 150vh;
+    align-items: center;
+    align-content: center;
+    /* align-self: center; */
+    max-width: 47em;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(190, 187, 187);
+    width: 15em;
+    
+}
+
+.flex {
+    height: 200vh;
+}
+
+.flex .card{
+    height: 42em;
+}
+
+p{
+    margin: 0.3em 1em 1em 1em;
+}
+
+h2{
+    padding: 1em 0;
+}
+
+h3{
+    padding: 1rem 0 0 1rem;
+}
+
+footer{
+    border-top: 1px solid #a7a0a0;
+    margin-top: auto;
+}
