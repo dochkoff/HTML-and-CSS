@@ -1,0 +1,169 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+.site{
+    font-family: "PT sans", sans-serif;
+    background: url(../Recources/image/fitness-main.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center -16em;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    background-color: #d01a19;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 40px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+
+.social li{
+    padding: 0 5px;
+}
+
+.cover nav ul{
+    display: flex;
+    font-size: 17px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: flex-end;
+    padding:1em 0;
+}
+
+.slogan{
+    color: white;
+    text-align: center;
+    margin-top: 10em;
+    margin-bottom: 7em;
+}
+
+.slogan h1{
+    font-size: 64px;
+    letter-spacing: 10px;
+    margin: 0.5em;
+}
+
+.slogan p{
+    font-size: 24px;
+    padding: 0 19em;
+    margin-bottom: 40px;
+}
+
+.slogan a{
+    font-size: 24px;
+    display: inline-block;
+    background-color: #d01a19;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.article-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5em;
+}
+
+.wellcome{
+    background-color: white;
+
+
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0  25%;
+}
+
+h2{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h2:after{
+    display: block;
+    content: '';
+    width: 1em;
+    height: 4px;
+    border: 2px;
+    margin: 1em auto;
+    background: rgba(208, 25, 25, 1);
+}
+
+.wellcome img{
+    width: 15%;
+    height: auto;
+}
+
+.wellcome .services{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #d01a19;
+    margin: 1em 0;
+}
+
+.wellcome article p:nth-child(3){
+    font-size: 26px;
+}
+
+.coaches{
+    background-color: #efefef;
+}
+
+.coaches article img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.coach{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 0.5em;
+}
+
+.coaches .services{
+    font-weight: bolder;
+    color: #d01a19;
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+.coaches article{
+    flex: 0 0  20%;
+}
+
+.coaches article p:nth-child(4){
+    font-size: 24px;
+    color: #aeb2c0;
+}
+
+footer{
+    background-color: #c81919;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+padding: 0 3em;
+}
