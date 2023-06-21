@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 Georgia, serif;
+}
+
+body{
+    font: inherit;
+    background-color: rgb(238, 238, 238);
+    margin: 3em 5em;
+
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+}
+
+.page header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0 100%;
+    border-bottom: 2px solid rgb(0,0,0);
+    margin-bottom: 1.5em;
+}
+
+.page header h1{
+    text-transform: uppercase;
+    padding: 0.5em 0;
+}
+
+.page header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.page header nav ul li{
+    padding: 0 0.5em;
+    color: rgb(0, 102, 0);
+}
+
+.page main{
+    width: 70%;
+}
+
+.page main section{
+    padding-bottom: 2em;
+
+}
+
+.page main section img{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border: 3px solid black;
+    padding: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.25);
+}
+
+.elevator{
+    float: right;
+    margin-left: 1em;
+}
+
+.path{
+    float: left;
+    margin-right: 1em;
+}
+
+.page main section h1,
+.page main section h2{
+    padding-bottom: 0.5em;
+}
+
+.page main section blockquote{
+    font-family: Georgia, serif;
+}
+
+.page main section p{
+    padding-top: 1em;
+}
+
+.page aside section nav ul li a{
+    color: rgb(0, 102, 0);
+    padding: 0.5em 0em;
+}
+
+.page aside section{
+    width: 30%;
+    padding-left: 3em;
+}
+
+.page aside section nav ul{
+    margin: 0.5em 2em;
+}
+
+.page aside section nav ul li{
+    padding: 0.1em ;
+}
+
+.quote{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+blockquote{
+    display: flex;
+    flex: 1 0 50%;
+    flex-direction: column;
+    padding-left: 1em;
+    border-left: 2px solid rgb(181, 174, 174);
+    font-style: oblique;
+    line-height: 1.3em;
+}
+
+.author{
+    align-self: flex-end;
+
+}
