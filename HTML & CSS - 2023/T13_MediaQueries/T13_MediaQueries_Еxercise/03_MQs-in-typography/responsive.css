@@ -1,0 +1,51 @@
+@media (max-width: 1800px){
+    body{
+        font-size: 23px;
+        margin: 2em 2em;
+    }
+}
+
+@media (max-width: 1300px){
+    body{
+        font-size: 21px;
+        margin: 2em 2em;
+    }
+}
+
+
+@media (max-width: 800px){
+    body{
+        font-size: 18px;
+        margin: 2em 2em;
+    }
+}
+
+
+@media (max-width: 600px){
+    body{
+        font-size: 14px;
+        margin: 2em 2em;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        font-size: 12px;
+        margin: 2em 2em;
+    }
+
+    .elevator,
+    .path{
+        float: none;
+        margin: 0;
+    }
+
+    .quote{
+        flex-direction: column;
+        
+    }
+
+    blockquote{
+        margin: 2em;
+    }
+}
