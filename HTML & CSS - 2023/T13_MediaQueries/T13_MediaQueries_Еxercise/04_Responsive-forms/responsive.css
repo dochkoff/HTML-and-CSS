@@ -1,0 +1,15 @@
+@media (max-width:540px){
+    input{
+        width: 100%;
+    }
+
+    .fa-user{
+        top: 72px;
+        left: 40px;
+    }
+
+    .fa-key{
+        top: 155px;
+        left: 40px;
+    }
+}

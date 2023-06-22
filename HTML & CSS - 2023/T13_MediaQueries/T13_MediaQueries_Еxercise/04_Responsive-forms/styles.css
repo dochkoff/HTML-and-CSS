@@ -1,0 +1,68 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #f8f8f8;
+    max-width: 480px;
+    padding: 2em;
+    margin: 10em 2em;
+
+    line-height: 2em;
+    border: 1px solid rgb(176, 171, 171);
+    box-shadow: 0 0 0.7em 0 rgba(118, 110, 110, 0.3);
+}
+fieldset legend p{
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    display: inline-block;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(176, 171, 171);
+    box-shadow: 0 0 0.7em 0 rgba(118, 110, 110, 0.3);
+    width: 30%;
+    padding: 0 10px;
+}
+
+input{
+    border: 1px solid rgb(236, 228, 228);
+    border-radius: 0.3em;
+    width: 80%;
+    height: 3em;
+    margin-bottom: 1.5em;
+}
+
+input:focus{
+    z-index: 2;
+}
+
+.fa-user{
+    position: absolute;
+    z-index: 1;
+    top: 42px;
+    left: 120px;
+}
+
+.fa-key{
+    position: absolute;
+    z-index: 1;
+    top: 93px;
+    left: 120px;
+}
+
+button{
+    background-color: #2d2d2d;
+    color: #f8f8f8;
+    font-weight: inherit;
+    padding: 0.5em 1.5em;
+    border-radius: 0.3em;
+}
