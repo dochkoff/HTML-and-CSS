@@ -1,0 +1,142 @@
+body{
+    --clr-primary:#e50815;
+}
+
+.site{
+    background-image: url(../assets/bg.jpg);
+    background-size: 100%;
+    position: relative;
+    
+}
+
+header::before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 17.3%;
+    z-index: 1;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.site-header .section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.site-header .section-container img{
+    width: 20%;
+}
+
+.site-header a{
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+.site-header a.login {
+    background: var(--clr-primary);
+    color: #fff;
+    border-radius: 0.3em;
+    padding: 0.5em 1em;
+}
+
+.section.site-header,
+.section.section-banner{
+    border: none;
+    background: none;
+    position: relative;
+    z-index: 2;
+}
+
+.section{
+    background: #000;
+    color: #fff;
+    border-top: 5px solid rgba(255, 255, 255, 0.15);
+}
+
+.section-container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* Sections */
+
+.section-banner{
+    text-align: center;
+    
+}
+
+.section-banner .section-container{
+    padding: 4em;
+
+}
+
+.section-banner h2{
+    max-width: 16em;
+    margin-inline: auto;
+}
+
+.section-banner .subtitle{
+    font-size: 1.4em;
+}
+
+.section.fetures-media .section-container{
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.section.fetures-media.left .section-container .media{
+    order: -1;
+}
+
+.section-faq .section-container{
+    padding: 2em 0;
+    max-width: 45em;
+}
+
+.section-faq h2{
+    padding-bottom: 1em;
+}
+.section-faq .section-container>h2,
+.section-faq .section-container>p{
+    text-align: center;
+}
+
+.site-footer .section-container{
+    padding: 3em 1em;
+}
+
+.site-footer h6 {
+    padding-bottom: 2em;
+    font-weight: normal;
+    color: #666;
+}
+
+.site-footer .links{
+    display: flex;
+}
+
+.site-footer .links ul{
+    flex: 1 1 auto;
+    padding-left: 0;
+    margin: 0;
+}
+
+.site-footer .links li{
+    display: block;
+    padding-bottom: 1em;
+}
+
+.site-footer a{
+    color: #666;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
