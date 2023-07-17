@@ -1,0 +1,70 @@
+@import url('https: //fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url(reset.css);
+
+body{
+    background: #d9d9d9;
+}
+
+.site{
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    display: flex;
+    margin: 5em;
+    gap: 3em;
+}
+
+.box{
+    flex: 0 0 31%;
+    box-shadow: 4px 4px 11px 1px rgba(128, 128, 128, 0.6);
+}
+
+.box .text{
+    color: #5a5c5f;
+    margin: 2em 2em 1em 2em;
+    border-bottom: 1.5px solid black;
+}
+
+.box .text .title{
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.box .text p:nth-child(3){
+    font-size: 22px;
+    line-height: 1.2em;
+    color: #777777;
+    padding-bottom: 2em;
+}
+
+.box .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em 2em 2em;
+}
+
+.box .meta .author {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    color: #5a5c5f;
+    font-size: 20px;
+}
+
+.box .meta  .author img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.box .meta .time p {
+    font-size: 22px;
+    color: #acacac;
+}
+
+img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
