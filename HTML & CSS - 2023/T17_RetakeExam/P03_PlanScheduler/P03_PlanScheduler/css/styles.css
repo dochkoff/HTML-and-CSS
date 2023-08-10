@@ -1,0 +1,244 @@
+@import url(reset.css);
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+html{
+    font: 20px/1.5px Inter, sans-serif;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+.site{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.navigation,
+.features,
+footer{
+    background: #d9d9d9;
+}
+
+.numbers,
+.plans{
+    background: white;
+}
+
+.site .navigation .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 2.5em 1em 4.5em;
+}
+
+.site .navigation .nav-container .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.site .navigation .nav-container .menu ul li{
+    padding-right: 2em;
+}
+
+.site .navigation .nav-container .buy-now {
+    font-size: 16px;
+    padding: 0.5em 1.2em;
+    background: white;
+    border: 1px solid black;
+    border-radius: 0.3em;
+}
+
+.site header{
+    height: 38em;
+    background-image: url(../images/background.jpg);
+    background-position-y: -315px;
+    background-position-x: -10px;
+}
+
+.site header .header-container{
+    
+    padding: 9em 15em;
+}
+
+.site header .header-container h1{
+    width: 10em;
+    font-size: 3em;
+    line-height: 1.2em;
+    margin-bottom: 1.6em;
+}
+
+.site header .header-container p {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3em;
+    width: 35em;
+    padding-bottom: 3.5em;
+}
+
+.site header .header-container a,
+.site .plans .plan a {
+    color: white ;
+    background: black;
+    padding: 1.3em 2.5em;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.site .numbers{
+    display: flex;
+    gap: 3.5em;
+    height: 17em;
+    align-items: center;
+    text-align: center;
+    padding-inline: 8em;
+    padding-top: 1em;
+}
+
+.site .numbers div h2{
+    color: #ff7c4c;
+    font-size: 3em;
+    padding-bottom: 0.7em;
+}
+
+.site .numbers div p:nth-child(2) {
+    font-size: 22px;
+}
+
+.site .numbers div p:nth-child(3) {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.site .features{
+    padding: 3em 3.5em 1em 4em;
+}
+.site .features article{
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.site .features article .media img{
+    width: 1150px;
+}
+
+.site .features article .text {
+    padding: 2em;
+}
+
+.site .features article .text .type{
+    color: #676767;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2.5em;
+}
+
+.site .features article .text .title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.site .features article .text .content {
+    color: #8a8a8a;
+    line-height: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+.site .features article .text .author {
+    color: #8a8a8a;
+    padding-bottom: 0.5em;
+    padding-top: 3em;
+}
+
+.site .plans{
+    display: flex;
+    margin-inline: 4em;
+    padding: 3.5em 3em;
+    height: 35em;
+    gap: 2em;
+}
+
+.site .plans .plan{
+    flex: 0 0 33%;
+}
+
+.site .plans .pricing-info h4 {
+    font-size: 40px;
+    margin-bottom: 1.5em;
+}
+
+.site .plans .pricing-info p {
+    color: #8a8a8a;
+    line-height: 1.2em;
+}
+
+.site .plans .free,
+.site .plans .paid {
+    flex: 0 0 31%;
+    padding: 2em;
+    text-align: center;
+    background: #ff7c4c;
+    box-shadow: 4px 4px 11px 1px rgba(128, 128, 128, 0.6);
+}
+
+.site .plans .plan h6 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.site .plans .plan ul .bolder {
+    font-weight: 600;
+}
+
+.site .plans .plan .price {
+    font-size: 76px;
+    font-weight: 200;
+    padding-bottom: 0.5em;
+}
+
+.site .plans .plan ul {
+    margin-bottom: 3em;
+}
+
+.site .plans .plan ul li {
+    line-height: 2em;
+}
+
+.site .plans .paid {
+    background: black;
+}
+
+.site .plans .paid h6,
+.site .plans .paid p,
+.site .plans .paid ul li span{
+    color: white;
+}
+
+.site .plans .paid a {
+    color: black;
+    background: white;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    padding-inline: 7em;
+    height: 6em;
+}
