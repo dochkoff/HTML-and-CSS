@@ -19,4 +19,5 @@ The purpose of the course [HTML & CSS](https://softuni.bg/trainings/4114/html-an
 
 ## Course certificate
 
-Loading...
+![5 Certificate HTML   CSS](https://github.com/dochkoff/HTML-and-CSS/assets/74410756/64243e97-0b0d-45a4-89d8-dbd6367ddec9)
+
